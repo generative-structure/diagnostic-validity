@@ -1,0 +1,6 @@
+method,feature_space,ARI,AMI,notes
+kmeans,raw_magnitude_hist,0.2206,0.5342,clusters are numeric; no mechanism meaning assigned
+dbscan,raw_magnitude_hist,0.184,0.4193,clusters are numeric; no mechanism meaning assigned
+kmeans,projection_features,1.0,1.0,richer separation via construction layers
+dbscan,projection_features,0.2823,0.6591,richer separation via construction layers
+isolation_forest,raw_magnitude_hist,n/a,n/a,"most-anomalous (raw geom): product=0.55, fixed_factor=0.46, repeated=0.45, sum_of_rounded=0.45"

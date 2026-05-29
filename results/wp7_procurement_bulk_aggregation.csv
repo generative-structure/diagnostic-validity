@@ -1,0 +1,6 @@
+projection,txn_verdict,txn_z,vendor_verdict,vendor_z
+CentsEntropy,+,-6197.3,+,-2164.7
+TerminalDigit,+,19809.1,+,5965.2
+DecimalResidue,+,332.6,+,191.7
+cp_spectrum,+,751.6,+,377.8
+VocabGini,+,865.5,+,629.9

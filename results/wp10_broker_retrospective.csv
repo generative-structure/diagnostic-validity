@@ -1,0 +1,13 @@
+diagnostic,z,rel_effect,naive_alert,broker_state
+LeadingDigit,-191.4,0.835,True,Discover
+TerminalDigit,409.3,8640.87,True,Discover
+CentsEntropy,-588.1,0.389,True,Discover
+DecimalResidue,672.7,41.81,True,Discover
+VocabGini,945.0,330.238,True,Discover
+cp_spectrum,643.5,4.072,True,Discover
+L_profile,-262.8,0.166,True,Discover
+TailMass,257.8,0.637,True,Discover
+ThresholdDensity@$10k,-8.7,n/a,True,0 (no alert)
+ThresholdDensity@$25k,0.7,n/a,False,0 (no alert)
+TemporalConcentration,n/a,n/a,False,Uninterpretable (dimension absent)
+CBAD_a/c/R2,n/a,n/a,False,Uninterpretable (dimension absent)

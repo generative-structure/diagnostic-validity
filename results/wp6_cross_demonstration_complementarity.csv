@@ -1,0 +1,4 @@
+dataset,mechanism_type,status,distinguishing_active,cp_spectrum_submetric,detected,not_detected
+genome_CDS,codon triplet (divisibility by 3),REAL (chr21),"mod3 (+), c3 (+)",c3,mod3; c3; L_profile,cents/round-dollar (not cent-denominated); c5/c7-specific
+procurement_awards,round-dollar / threshold,"REAL (DoD FY2023, round-number battery)","cents_entropy (+), DecimalResidue (+)",c5sq,terminal digit; cents entropy; mod100; c2/c5/c10,c3 / mod3 (no codon constraint); CBAD (unordered)
+age_heaping,digit heaping on 0/5,PENDING (registration-gated microdata; see provenance),"terminal_digit, mod5/mod10 (predicted)",c5/c10 (predicted),terminal digit; decimal residue (mod5/mod10); c2/c5 (predicted),"c3, c7; threshold density (predicted)"

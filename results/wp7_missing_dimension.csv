@@ -1,0 +1,13 @@
+mechanism,dimension_present,projection,value,z_score,verdict
+fiscal,timestamps_present,TemporalConcentration,79919.9566,423.786,+
+fiscal,timestamps_withheld,TemporalConcentration,nan,nan,uncomputable (dimension not recorded)
+fiscal,timestamps_present,LeadingDigit(amount),0.05971,0.573,0
+threshold,T=25000_known,ThresholdDensity,2.32982,347.778,+
+threshold,T=10000_wrong,ThresholdDensity,nan,nan,uncomputable (no data at T)
+threshold,T=50000_wrong,ThresholdDensity,nan,nan,uncomputable (no data at T)
+threshold,T=24000_wrong_inrange,ThresholdDensity,1.10483,39.771,+
+threshold,T=None,ThresholdDensity,nan,nan,uncomputable (threshold unknown)
+repeated,ordering_present,cbad_a,0.00137,-203.445,+ (compressible: a lower than shuffled)
+repeated,ordering_withheld(shuffled),cbad_a,0.15373,nan,baseline (higher a)
+repeated,ordering_present,cbad_r2,0.99827,nan,info
+repeated,ordering_withheld(shuffled),cbad_r2,0.99867,nan,info

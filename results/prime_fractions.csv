@@ -1,0 +1,15 @@
+mechanism,prime_fraction_mean,prime_fraction_std
+null,0.078601,0.000613
+repeated,0.078301,0.037962
+round,0.0,0.0
+quarter,2.1e-05,1.8e-05
+psychological,0.118169,0.000883
+threshold,0.110488,0.000907
+fiscal,0.078601,0.000613
+divisibility,0.0,0.0
+product,0.0,0.0
+fixed_factor,0.0,0.0
+temporal_concat,0.068549,0.020756
+temporal_concat_arith,0.039356,0.000505
+sum_of_rounded,0.0,0.0
+sum_of_divisibility,0.0,0.0

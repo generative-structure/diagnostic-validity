@@ -1,0 +1,64 @@
+mechanism,projection,prediction,rationale,experiment_needed
+Repeated exact,LeadingDigit,?,"Leading-digit concentration depends on how many distinct values are repeated and their magnitudes, which the repetition mechanism leaves free.",YES
+Repeated exact,TerminalDigit,?,"Terminal-digit deviation depends on the cents structure of the specific repeated values, not on repetition itself.",YES
+Repeated exact,CentsEntropy,?,"Cents entropy collapses only if the repeated values share cents endings; otherwise it tracks the underlying value set.",YES
+Repeated exact,DecimalResidue,?,"Modular-residue concentration arises only if the repeated values share a residue class, which is unconstrained by the mechanism.",YES
+Repeated exact,TemporalConcentration,?,"Whether repeated payments cluster in time is set by contract scheduling, exogenous to value repetition.",YES
+Repeated exact,cp_spectrum,?,"The prime-identity spectrum reflects the factorization of the specific repeated integers, undetermined by repetition alone.",YES
+Repeated exact,L_profile,?,"Ranked factorization shape depends on which integers are repeated, not on the fact of repetition.",YES
+Repeated exact,TailMass,?,"Factorization tail mass is fixed by the chosen repeated values, not by repetition.",YES
+Repeated exact,CBAD_c,?,"The convergence exponent depends on whether repeats are contiguous or interleaved, a sequencing parameter requiring simulation.",YES
+Repeated exact,CBAD_R2,?,"Compression-fit consistency depends on the ordering of repeats within the stream, which the mechanism does not fix.",YES
+Round number,LeadingDigit,?,"Whole-unit rounding perturbs leading digits only weakly and in a magnitude-dependent way (Benford response flagged uncertain in the matrix remark).",YES
+Round number,L_profile,?,"Whether rounding reshapes the ranked factorization profile depends on magnitude regime and recording unit (L-profile effect uncertain).",YES
+Round number,TailMass,?,"Rounding injects factors of 2 and 5 whose tail-mass effect is magnitude-dependent and needs a finite-size baseline.",YES
+Round number,CBAD_a,?,"Compression asymptote depends on the residual diversity of rounded values, a tunable parameter.",YES
+Round number,CBAD_c,?,"The convergence exponent for rounded streams is not analytically predictable and requires simulation.",YES
+Quarter/focal,LeadingDigit,?,"Focal-value concentration alters leading digits only through the specific focal set, a magnitude-dependent interaction.",YES
+Quarter/focal,L_profile,?,"Quarter/focal rounding's effect on factorization shape is magnitude- and unit-dependent, as with whole-dollar rounding.",YES
+Quarter/focal,TailMass,?,"Focal rounding (multiples of 25 cents) injects factors of 5 whose tail-mass effect is magnitude-dependent.",YES
+Quarter/focal,CBAD_a,?,"Compression diversity depends on how tightly values concentrate at focal points, a design parameter.",YES
+Quarter/focal,CBAD_c,?,"The convergence exponent requires sequential simulation of focal-concentrated streams.",YES
+Psychological,LeadingDigit,0,"Psychological pricing manipulates terminal digits/cents; leading digits are structurally insensitive except via incidental price-point clustering.",NO
+Psychological,cp_spectrum,?,"Whether .99-type endings perturb the prime-identity spectrum depends on the resulting integer factorizations at the recording unit.",YES
+Psychological,L_profile,?,"The factorization-shape effect of psychological endings is magnitude- and unit-dependent.",YES
+Psychological,TailMass,?,"Tail mass is not determined by the pricing-ending convention alone.",YES
+Psychological,CBAD_a,?,"Compression diversity depends on the spread of psychological price points.",YES
+Psychological,CBAD_c,?,"The convergence exponent requires simulation of psychologically-priced streams.",YES
+Fiscal/calendar,CBAD_R2,?,"CBAD R2 degrades only if fiscal-period concentration coincides with a temporal regime change; for IID within-period amounts it stays stable, making this ordering-dependent.",YES
+Divisibility const.,LeadingDigit,?,"Benford response is uncertain because digit effects depend on the interaction of the divisibility constraint with the magnitude distribution.",YES
+Divisibility const.,TerminalDigit,?,"Terminal-digit effect depends on the divisor relative to base 10 (divisor 7 leaves terminal digits near-uniform; divisor 5 concentrates them).",YES
+Divisibility const.,CentsEntropy,?,"Cents-entropy effect depends on whether the divisor shares factors with 100, requiring divisor-specific enumeration.",YES
+Product-composed,LeadingDigit,?,"Leading-digit behavior of products depends on the factor distributions; products approach Benford but finite-size deviation is magnitude-dependent.",YES
+Product-composed,cp_spectrum,?,"The prime-identity spectrum of products depends on the prime content of the factors, which composition leaves free.",YES
+Product-composed,CBAD_a,?,"Compression diversity of product-composed values depends on factor-set richness.",YES
+Product-composed,CBAD_c,?,"The convergence exponent for product streams requires sequential simulation.",YES
+Fixed-factor alg.,LeadingDigit,?,"A common fixed factor shifts leading digits multiplicatively; the resulting Benford deviation is factor- and magnitude-dependent.",YES
+Temporal concat.,CBAD_a,?,"The compression asymptote under concatenation depends on whether concatenated regimes differ in diversity (Delta a), a design parameter.",YES
+Temporal concat.,CBAD_c,?,"The convergence exponent under temporal concatenation depends on regime-boundary placement and ordering.",YES
+Sum of rounded,LeadingDigit,0,"Any weak leading-digit perturbation from rounding is attenuated toward the aggregate's natural Benford behavior under summation (Prop 6 attenuation).",YES
+Sum of rounded,TerminalDigit,+,"Whole-unit rounding is aggregation-closed (Prop 6): every sum of whole-unit amounts is whole-unit, so the terminal-digit signature is preserved.",NO
+Sum of rounded,CentsEntropy,+,"Cents entropy stays minimal because sums of whole-unit values remain whole-unit (aggregation-closed, Prop 6).",NO
+Sum of rounded,DecimalResidue,+,"Low-order modular residue (mod 100) is preserved under summation of whole-unit values (aggregation-closed, Prop 6).",NO
+Sum of rounded,VocabGini,?,"Aggregation may wash out repetition or amplify it via recurring batch totals (Prop 6 amplification), depending on aggregation grouping.",YES
+Sum of rounded,ThresholdDensity,?,"Local threshold geometry attenuates under summation, but aligned batch caps could create new bunching (Prop 6).",YES
+Sum of rounded,TemporalConcentration,?,"Temporal concentration of aggregates depends on the reporting/batching calendar, exogenous to the rounding mechanism.",YES
+Sum of rounded,cp_spectrum,?,"Preserved divisibility-by-base structure (and thus c_p elevation) holds only at a cents recording unit, making the spectrum signature unit-dependent (Props 5-6).",YES
+Sum of rounded,L_profile,?,"Ranked factorization shape of sums attenuates as components grow, but the finite-m residual shape is unknown (Prop 6 attenuation).",YES
+Sum of rounded,TailMass,?,"Factorization tail mass of sums attenuates under summation but the magnitude-dependent residual needs measurement.",YES
+Sum of rounded,CBAD_a,?,"Compression diversity of the aggregated stream depends on total diversity and batching structure.",YES
+Sum of rounded,CBAD_c,?,"The convergence exponent of the aggregated sequence requires simulation.",YES
+Sum of rounded,CBAD_R2,?,"Fit consistency depends on whether aggregation introduces regime structure into the sequence.",YES
+Sum of divis.-const.,LeadingDigit,?,"The Benford response of divisible sums is magnitude- and divisor-dependent, as for the base divisibility mechanism.",YES
+Sum of divis.-const.,TerminalDigit,?,"Terminal-digit effect of summed divisible values depends on the divisor relative to base 10.",YES
+Sum of divis.-const.,CentsEntropy,?,"Cents-entropy effect depends on whether the divisor shares factors with 100.",YES
+Sum of divis.-const.,DecimalResidue,+,"Divisibility by C is aggregation-closed (Prop 6): sums of multiples of C remain multiples of C, so residue concentration is preserved (assuming C shares factors with the residue modulus).",NO
+Sum of divis.-const.,VocabGini,?,"Repetition concentration depends on whether aggregation produces recurring batch totals.",YES
+Sum of divis.-const.,ThresholdDensity,?,"Local threshold geometry attenuates under summation but batch caps could re-bunch.",YES
+Sum of divis.-const.,TemporalConcentration,?,"Temporal concentration depends on the batching calendar, exogenous to the divisibility constraint.",YES
+Sum of divis.-const.,cp_spectrum,?,"Divisibility by C is preserved under summation, but the magnitude-normalized c_p shrinks as sums grow, so the net spectrum signature is uncertain (Props 5-6).",YES
+Sum of divis.-const.,L_profile,?,"The preserved divisor adds a fixed factor, but the ranked-shape effect at larger aggregate magnitudes is uncertain.",YES
+Sum of divis.-const.,TailMass,?,"Preserved divisibility affects tail mass, but aggregate magnitude growth complicates the prediction.",YES
+Sum of divis.-const.,CBAD_a,?,"Compression diversity of the aggregated divisible stream depends on diversity and batching.",YES
+Sum of divis.-const.,CBAD_c,?,"The convergence exponent of the aggregated sequence requires simulation.",YES
+Sum of divis.-const.,CBAD_R2,?,"Fit consistency depends on whether aggregation introduces sequence regime structure.",YES

@@ -1,0 +1,15 @@
+mechanism,LeadingDigit,TerminalDigit,CentsEntropy,DecimalResidue,VocabGini,ThresholdDensity,TemporalConcentration,cp_spectrum,L_profile,TailMass,CBAD_a,CBAD_c,CBAD_R2
+null,0,0,0,?,0,?,?,?,0,0,0,0,0
+repeated,+,+,+,+,+,?,?,0,0,0,+,+,+
+round,0,+,+,+,+,?,?,+,+,+,+,+,+
+quarter,0,+,+,+,+,?,?,+,+,+,+,+,+
+psychological,0,+,+,+,+,?,?,+,+,+,+,+,+
+threshold,0,0,0,0,?,0,?,?,0,0,0,0,0
+fiscal,0,0,0,?,0,?,+,?,0,0,0,0,0
+divisibility,0,0,0,0,+,?,?,+,+,+,0,0,?
+product,+,+,+,+,+,?,?,+,+,+,0,+,+
+fixed_factor,+,+,+,+,+,?,?,+,+,+,?,+,+
+temporal_concat,?,+,+,+,+,?,?,?,0,0,0,+,+
+temporal_concat_arith,?,0,0,0,+,?,?,+,+,+,0,0,0
+sum_of_rounded,+,+,+,+,+,?,?,+,+,+,+,+,+
+sum_of_divisibility,+,0,0,0,+,?,?,+,+,+,0,?,+

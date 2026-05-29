@@ -1,0 +1,15 @@
+true\pred,divisibility,fiscal,fixed_factor,null,product,psychological,quarter,repeated,round,sum_of_divisibility,sum_of_rounded,temporal_concat,temporal_concat_arith,threshold
+divisibility,20,0,0,0,0,0,0,0,0,0,0,0,0,0
+fiscal,0,20,0,0,0,0,0,0,0,0,0,0,0,0
+fixed_factor,0,0,20,0,0,0,0,0,0,0,0,0,0,0
+null,0,0,0,20,0,0,0,0,0,0,0,0,0,0
+product,0,0,0,0,20,0,0,0,0,0,0,0,0,0
+psychological,0,0,0,0,0,20,0,0,0,0,0,0,0,0
+quarter,0,0,0,0,0,0,20,0,0,0,0,0,0,0
+repeated,0,0,0,0,0,0,0,20,0,0,0,0,0,0
+round,0,0,0,0,0,0,0,0,20,0,0,0,0,0
+sum_of_divisibility,0,0,0,0,0,0,0,0,0,20,0,0,0,0
+sum_of_rounded,0,0,0,0,0,0,0,0,0,0,20,0,0,0
+temporal_concat,0,0,0,0,0,0,0,0,0,0,0,20,0,0
+temporal_concat_arith,0,0,0,0,0,0,0,0,0,0,0,0,20,0
+threshold,0,0,0,0,0,0,0,0,0,0,0,0,0,20

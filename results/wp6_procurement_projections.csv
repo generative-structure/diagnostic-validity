@@ -1,0 +1,2 @@
+dataset,n,leading_digit_mad,terminal_digit_chisq,cents_entropy,mod5_tv,mod10_tv,mod25_tv,mod100_tv,vocab_gini,c2,c3,c5,c7,c10,c5sq,L1,L2,L3,L4,tail_mass,prime_fraction
+DoD_award_amounts_cents,690,0.033286,1539.15942,4.38275,0.395652,0.447826,0.451304,0.472319,0.018697,0.096812,0.03203,0.153601,0.018897,0.250413,0.132213,0.567712,0.236611,0.124643,0.054737,0.195677,0.031884

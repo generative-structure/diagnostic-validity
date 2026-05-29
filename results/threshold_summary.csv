@@ -1,0 +1,13 @@
+threshold,baseline_type,ThresholdDensity_verdict,ThresholdDensity_z,LeadingDigit_verdict,LeadingDigit_z,DecimalResidue_verdict,cp_spectrum_verdict
+10000,magnitude_matched,0,-0.38,0,0.0,0,?
+10000,parent_support,+,22.711,+,1437.491,0,+
+10000,threshold_aware,0,0.748,+,14.735,0,?
+12500,magnitude_matched,+,348.555,0,0.0,?,?
+12500,parent_support,+,39.979,+,1607.494,+,+
+12500,threshold_aware,0,0.626,0,0.0,?,0
+25000,magnitude_matched,+,347.778,0,0.0,0,0
+25000,parent_support,+,38.886,+,2074.631,?,+
+25000,threshold_aware,0,0.271,0,0.0,?,?
+37500,magnitude_matched,+,350.47,0,0.0,?,?
+37500,parent_support,+,42.395,+,1903.547,?,+
+37500,threshold_aware,0,0.123,0,0.0,?,?

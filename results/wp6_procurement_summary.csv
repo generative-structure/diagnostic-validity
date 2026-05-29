@@ -1,0 +1,2 @@
+dataset,n,LeadingDigit,TerminalDigit,CentsEntropy,DecimalResidue_sub,DecimalResidue,cp_spectrum_sub,cp_spectrum,VocabGini,ThresholdDensity,whole_dollar_frac
+DoD_award_amounts,690,?,+,+,mod5_tv,+,c5sq,+,?,NOT_COMPUTED_see_provenance,0.472

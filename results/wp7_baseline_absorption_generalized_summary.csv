@@ -1,0 +1,10 @@
+mechanism,baseline_type,focus_survived,focus_absorbed
+round,magnitude_matched,TerminalDigit;CentsEntropy;DecimalResidue;cp_spectrum,none
+round,cents_neutral,TerminalDigit;CentsEntropy;DecimalResidue;cp_spectrum,none
+round,cents_aware,none,TerminalDigit;CentsEntropy;DecimalResidue;cp_spectrum
+fiscal,magnitude_matched,TemporalConcentration,cp_spectrum
+fiscal,temporal_neutral,TemporalConcentration,cp_spectrum
+fiscal,temporal_aware,none,TemporalConcentration;cp_spectrum
+divisibility,magnitude_matched,cp_spectrum;L_profile;TailMass,none
+divisibility,divisibility_neutral,cp_spectrum;L_profile;TailMass,none
+divisibility,divisibility_aware,none,cp_spectrum;L_profile;TailMass

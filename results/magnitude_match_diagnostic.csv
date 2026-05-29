@@ -1,0 +1,15 @@
+mechanism,mean_log10_mech,mean_log10_null,abs_diff,flag
+null,5.5652,5.5647,0.0004,False
+repeated,5.5034,5.5101,0.0068,False
+round,5.5653,5.5656,0.0002,False
+quarter,5.5651,5.5647,0.0004,False
+psychological,5.5653,5.5647,0.0006,False
+threshold,3.9906,3.9906,0.0,False
+fiscal,5.5652,5.5647,0.0004,False
+divisibility,5.5652,5.5647,0.0004,False
+product,5.145,5.2944,0.1493,True
+fixed_factor,6.9552,6.9448,0.0105,False
+temporal_concat,5.5254,5.5402,0.0147,False
+temporal_concat_arith,5.5642,5.5643,0.0001,False
+sum_of_rounded,6.3819,6.4177,0.0358,False
+sum_of_divisibility,6.3819,6.4173,0.0354,False

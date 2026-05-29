@@ -1,0 +1,5 @@
+feature,n,mod3_verdict,mod3_z,c3_verdict,c3_z,cp_spectrum_sub,cp_spectrum_verdict,TerminalDigit,DecimalResidue,L_profile,LeadingDigit
+CDS_total_per_transcript,2212,+,101.2,+,50.4,c3,+,+,+,+,+
+CDS_segment,22486,+,40.0,+,38.3,c3,+,+,+,+,+
+intron,36454,+,16.7,+,-4.6,c5,+,+,+,?,+
+UTR,7141,0,-0.8,+,3.1,c2,+,+,+,+,+

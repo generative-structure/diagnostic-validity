@@ -1,0 +1,4 @@
+feature_type,n_total,frac_div3,c3_mean,c3_z,mod3_z,cp_selected
+CDS,57559,0.9229,0.2183,266.0,687.3,c3
+intron,739610,0.3339,0.0795,24.0,4.2,c10
+UTR,182120,0.3339,0.1215,8.0,1.2,c10

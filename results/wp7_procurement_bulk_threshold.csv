@@ -1,0 +1,4 @@
+threshold_usd,band_n,obs_density_ratio
+10000,1064,0.693
+25000,1481,1.083
+250000,698,1.231
