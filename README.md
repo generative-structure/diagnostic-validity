@@ -1,5 +1,7 @@
 # Diagnostic Validity for Constructed Data
 
+[![DOI](https://zenodo.org/badge/1253803654.svg)](https://doi.org/10.5281/zenodo.20451400)
+
 Replication package for "Diagnostic Validity for Constructed Data:
 Mechanisms, Projections, and Baselines."
 
